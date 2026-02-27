@@ -240,12 +240,12 @@
     document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
 
     const messages = [
-      { type: 'ai', text: 'Good morning. Here\'s your Monday briefing:', delay: 400 },
-      { type: 'ai', text: '3 contracts need your signature — summaries attached\n2 site inspection reports flagged — 1 requires attention\nMeeting with Ministry at 11:00 — prep doc ready\nKaragiannis payment overdue 14 days — draft reminder prepared\nNew regulation published Friday — impact analysis ready', delay: 800 },
-      { type: 'user', text: 'Send the payment reminder. Forward the regulation analysis to Dimitris. Push the Ministry meeting to 11:30.', delay: 1800 },
-      { type: 'ai', text: 'Done.\n\nPayment reminder sent to Karagiannis — professional tone, 7-day deadline\nRegulation analysis forwarded to Dimitris with summary\nMinistry meeting moved to 11:30 — all attendees notified\n\nAnything else before your 9:00?', delay: 2400 },
-      { type: 'user', text: 'No. Good work.', delay: 3200 },
-      { type: 'ai', text: 'Have a good day. I\'ll flag anything urgent.', delay: 3700 },
+      { type: 'ai', text: '☀️ Good morning! Your Monday briefing:', delay: 400 },
+      { type: 'ai', text: '📝 3 contracts ready for signature\n🏗️ 2 site reports — 1 needs you\n📅 Ministry meeting at 11:00 — prep doc ready\n💰 Karagiannis overdue 14 days — reminder drafted\n📜 New regulation Friday — impact analysis ready', delay: 800 },
+      { type: 'user', text: 'Send the reminder. Forward regulation to Dimitris. Move Ministry to 11:30.', delay: 1800 },
+      { type: 'ai', text: '✅ Reminder sent to Karagiannis\n✅ Analysis forwarded to Dimitris\n✅ Ministry moved to 11:30 — all notified\n\nAnything else before your 9:00? ☕', delay: 2400 },
+      { type: 'user', text: 'No, that\'s all. Thanks.', delay: 3200 },
+      { type: 'ai', text: 'Have a great day! I\'ll flag anything urgent. 👋', delay: 3700 },
     ];
 
     let chatStarted = false;
