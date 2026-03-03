@@ -64,7 +64,7 @@ All links must be **relative paths** (not absolute like `/en/`). GitHub Pages se
 - Subdirectory files: `../`, `../restaurant/`, etc.
 
 ## CTAs
-All CTAs link to WhatsApp: `https://wa.me/306979088738` with pre-filled text.
+All CTAs scroll to `#contact` — an inline proposal form at the bottom of each page. Form backend: **FormSubmit** (`https://formsubmit.co/elatsoudis@latsoudislaw.com`). Greek pricing CTAs auto-fill a hidden `package` field.
 
 ## Testimonials
 Real clients exist but are confidential. Testimonials are anonymized with realistic details:

@@ -20,7 +20,7 @@
         <a href="./" class="active">GR</a>
         <a href="en/">EN</a>
       </div>
-      <a href="https://wa.me/306979088738" class="nav-cta">Μίλα μας τώρα</a>
+      <a href="#contact" class="nav-cta">Επικοινωνήστε μαζί μας</a>
     </div>
   </nav>
 
@@ -43,7 +43,7 @@
       και αναπάντητες κλήσεις — <strong>ενώ εσύ κοιμάσαι</strong>.
     </p>
     <div class="hero-ctas">
-      <a href="https://wa.me/306979088738?text=%CE%98%CE%AD%CE%BB%CF%89%20%CE%B7%20%CE%B5%CF%80%CE%B9%CF%87%CE%B5%CE%AF%CF%81%CE%B7%CF%83%CE%AE%20%CE%BC%CE%BF%CF%85%20%CE%BD%CE%B1%20%CF%84%CF%81%CE%AD%CF%87%CE%B5%CE%B9%20%CE%BC%CF%8C%CE%BD%CE%B7%20%CF%84%CE%B7%CF%82" class="btn-primary">Ξεκίνα τώρα &rarr;</a>
+      <a href="#contact" class="btn-primary">Στείλε πρόταση &rarr;</a>
       <a href="#demo" class="btn-secondary">Δες το σε δράση</a>
     </div>
     <div class="stats-bar">
@@ -212,7 +212,7 @@
           <li><span class="check">&#10003;</span>Φτιάχνουμε μαζί την πρώτη σου αυτοματοποίηση</li>
           <li><span class="check">&#10003;</span>Playbook που κρατάς για πάντα</li>
         </ul>
-        <a href="https://wa.me/306979088738?text=%CE%9C%CE%B5%20%CE%B5%CE%BD%CE%B4%CE%B9%CE%B1%CF%86%CE%AD%CF%81%CE%B5%CE%B9%20%CF%84%CE%BF%20%CF%80%CE%B1%CE%BA%CE%AD%CF%84%CE%BF%20%CE%9C%CE%AC%CE%B8%CE%B5" class="price-btn price-btn-secondary">Ξεκίνα</a>
+        <a href="#contact" class="price-btn price-btn-secondary" data-package="Μάθε">Ξεκίνα</a>
       </div>
       <div class="price-card featured fade-up">
         <div class="price-badge">Πιο δημοφιλές</div>
@@ -228,7 +228,7 @@
           <li><span class="check">&#10003;</span>Εκπαίδευση ομάδας</li>
           <li><span class="check">&#10003;</span>Παρακολούθηση 24/7 για 60 μέρες</li>
         </ul>
-        <a href="https://wa.me/306979088738?text=%CE%98%CE%AD%CE%BB%CF%89%20%CF%84%CE%BF%20%CF%80%CE%B1%CE%BA%CE%AD%CF%84%CE%BF%20%CE%A7%CF%84%CE%AF%CF%83%CE%B5" class="price-btn price-btn-primary">Ξεκίνα τώρα &rarr;</a>
+        <a href="#contact" class="price-btn price-btn-primary" data-package="Χτίσε">Ξεκίνα τώρα &rarr;</a>
       </div>
       <div class="price-card fade-up">
         <h3>Συντήρηση</h3>
@@ -241,7 +241,7 @@
           <li><span class="check">&#10003;</span>Νέες αυτοματοποιήσεις όποτε χρειαστείς</li>
           <li><span class="check">&#10003;</span>Ανθρώπινη υποστήριξη σε λεπτά</li>
         </ul>
-        <a href="https://wa.me/306979088738?text=%CE%9C%CE%B5%20%CE%B5%CE%BD%CE%B4%CE%B9%CE%B1%CF%86%CE%AD%CF%81%CE%B5%CE%B9%20%CF%84%CE%BF%20%CF%80%CE%BB%CE%AC%CE%BD%CE%BF%20%CE%A3%CF%85%CE%BD%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%CF%82" class="price-btn price-btn-secondary">Ξεκίνα</a>
+        <a href="#contact" class="price-btn price-btn-secondary" data-package="Συντήρηση">Ξεκίνα</a>
       </div>
     </div>
   </section>
@@ -254,11 +254,31 @@
     </div>
   </div>
 
-  <!-- FINAL CTA -->
-  <div class="final-cta fade-up">
+  <!-- CONTACT FORM -->
+  <div class="proposal-form-section fade-up" id="contact">
     <h2>Σταμάτα να διαβάζεις.<br>Ξεκίνα να αυτοματοποιείς.</h2>
-    <p>Ο ανταγωνιστής σου ήδη το έκανε. Ένα μήνυμα στο WhatsApp και η επιχείρησή σου αλλάζει σε 48 ώρες.</p>
-    <a href="https://wa.me/306979088738?text=%CE%A0%CE%AC%CE%BC%CE%B5.%20%CE%98%CE%AD%CE%BB%CF%89%20AI%20%CE%B3%CE%B9%CE%B1%20%CF%84%CE%B7%CE%BD%20%CE%B5%CF%80%CE%B9%CF%87%CE%B5%CE%AF%CF%81%CE%B7%CF%83%CE%AE%20%CE%BC%CE%BF%CF%85." class="btn-primary" style="font-size: 1.2rem; padding: 18px 48px;">Στείλε μας στο WhatsApp &rarr;</a>
+    <p>Ο ανταγωνιστής σου ήδη το έκανε. Πες μας τι χρειάζεσαι και η επιχείρησή σου αλλάζει σε 48 ώρες.</p>
+    <form class="proposal-form" action="https://formsubmit.co/elatsoudis@latsoudislaw.com" method="POST">
+      <input type="hidden" id="package" name="package" value="">
+      <div class="form-group">
+        <label for="name-gr">Όνομα *</label>
+        <input type="text" id="name-gr" name="name" required placeholder="Το ονοματεπώνυμό σας">
+      </div>
+      <div class="form-group">
+        <label for="company-gr">Επιχείρηση / Ρόλος</label>
+        <input type="text" id="company-gr" name="company" placeholder="π.χ. CEO στην Acme Corp">
+      </div>
+      <div class="form-group">
+        <label for="email-gr">Email *</label>
+        <input type="email" id="email-gr" name="email" required placeholder="you@company.com">
+      </div>
+      <div class="form-group">
+        <label for="message-gr">Περιγράψτε τι χρειάζεστε *</label>
+        <textarea id="message-gr" name="message" required placeholder="Πείτε μας λίγα λόγια για την επιχείρησή σας και τι θα θέλατε"></textarea>
+      </div>
+      <button type="submit" class="form-submit">Υποβολή &rarr;</button>
+      <div class="form-note">Απαντάμε εντός 24 ωρών. Κανένα spam, ποτέ.</div>
+    </form>
   </div>
 
   <!-- FOOTER -->
@@ -318,6 +338,13 @@
       }
     }, { threshold: 0.3 });
     demoObserver.observe(document.getElementById('demo'));
+
+    // Auto-fill package field when pricing CTA is clicked
+    document.querySelectorAll('.price-btn[data-package]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.getElementById('package').value = btn.dataset.package;
+      });
+    });
   </script>
 
 </body>

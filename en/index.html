@@ -16,7 +16,7 @@
   <nav>
     <div class="logo"><a href="../">personal<span>intelligence</span>.ai</a></div>
     <div class="nav-right">
-      <a href="https://wa.me/306979088738" class="nav-cta">Let's talk</a>
+      <a href="#contact" class="nav-cta">Get in touch</a>
     </div>
   </nav>
 
@@ -31,7 +31,7 @@
       We bring 20 years of AI expertise and put it behind you — building a personalised system in 48 hours, running it 24/7, improving it continuously. We front all the costs. <strong>You stay on state-of-the-art AI. We share the upside.</strong>
     </p>
     <div class="hero-ctas">
-      <a href="https://wa.me/306979088738?text=Hi%20—%20I%20was%20referred%20by%20" class="btn-primary">I was referred &rarr;</a>
+      <a href="#contact" class="btn-primary">Submit a proposal &rarr;</a>
       <a href="#how" class="btn-secondary">How it works</a>
     </div>
     <div class="stats-bar">
@@ -234,11 +234,34 @@
     <div class="author">— Chairman, infrastructure &amp; energy group</div>
   </div>
 
-  <!-- FINAL CTA -->
-  <div class="final-cta fade-up">
+  <!-- CONTACT FORM -->
+  <div class="proposal-form-section fade-up" id="contact">
     <h2>If someone you trust sent you here,<br>we should talk.</h2>
-    <p>One conversation. No commitments, no invoices. Mention who referred you and we'll take it from there.</p>
-    <a href="https://wa.me/306979088738?text=Hi%20—%20I%20was%20referred%20by%20" class="btn-primary" style="font-size: 1.2rem; padding: 18px 48px;">Message us on WhatsApp &rarr;</a>
+    <p>One conversation. No commitments, no invoices. Tell us who referred you and we'll take it from there.</p>
+    <form class="proposal-form" action="https://formsubmit.co/elatsoudis@latsoudislaw.com" method="POST">
+      <div class="form-group">
+        <label for="name">Name *</label>
+        <input type="text" id="name" name="name" required placeholder="Your full name">
+      </div>
+      <div class="form-group">
+        <label for="company">Company / Role</label>
+        <input type="text" id="company" name="company" placeholder="e.g. CEO at Acme Corp">
+      </div>
+      <div class="form-group">
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required placeholder="you@company.com">
+      </div>
+      <div class="form-group">
+        <label for="message">What are you looking for? *</label>
+        <textarea id="message" name="message" required placeholder="Brief description of your business and what you need"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="referral">Who referred you?</label>
+        <input type="text" id="referral" name="referral" placeholder="Optional — helps us prioritise">
+      </div>
+      <button type="submit" class="form-submit">Submit &rarr;</button>
+      <div class="form-note">We respond within 24 hours. No spam, ever.</div>
+    </form>
   </div>
 
   <!-- FOOTER -->
